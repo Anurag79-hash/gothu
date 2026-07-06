@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    background:#f4f4f4;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+header{
+    background:#0f766e;
+    color:#fff;
+    text-align:center;
+    padding:25px 0;
+}
+
+header h1{
+    font-size:2.5rem;
+}
+
+header p{
+    margin-top:10px;
+    font-size:1rem;
+}
+
+.hero{
+    padding:40px 0;
+    text-align:center;
+}
+
+.hero img{
+    width:100%;
+    max-width:700px;
+    height:auto;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+.hero h2{
+    margin-top:20px;
+    font-size:2rem;
+}
+
+.hero p{
+    margin-top:10px;
+    font-size:1.1rem;
+    color:#666;
+}
+
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* Tablet */
+@media (max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .hero h2{
+        font-size:1.6rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+}
+
+/* Mobile */
+@media (max-width:480px){
+
+    header{
+        padding:18px 0;
+    }
+
+    header h1{
+        font-size:1.7rem;
+    }
+
+    header p{
+        font-size:.9rem;
+    }
+
+    .hero{
+        padding:25px 0;
+    }
+
+    .hero h2{
+        font-size:1.3rem;
+    }
+
+    .hero p{
+        font-size:.95rem;
+    }
+}

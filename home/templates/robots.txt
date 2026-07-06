@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gothu.onrender.com/sitemap.xml
