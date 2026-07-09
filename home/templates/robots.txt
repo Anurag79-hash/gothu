@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gothu.onrender.com/sitemap.xml
+Sitemap: https://gothu-n2p9.onrender.com/sitemap.xml
